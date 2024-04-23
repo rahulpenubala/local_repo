@@ -20,4 +20,6 @@ HEADLESS -> when we switch to a hash that is not latest commit
 
 git branch    - list branches
 git branch <name> - create branches (This does not automatically switch the branch)
-git switch <name> - As soon as we switch, it retaing all the prev work/commits from master branch
+git switch <name> / git checkout <name> / git switch -c <name> - Craetes a branch and switches in one command
+A new branch inherits "parent" commits, but, then adds commits on its own
+(HEAD -> testbranch,master) ==> Means, both master & testbranch are pointing to same commit, but HEAD points to testbranch
