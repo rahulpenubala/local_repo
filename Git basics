@@ -1,0 +1,4 @@
+Install Git & Git-Bash for windows
+Configure user, email - this creates global config file .gitconfig in home directory
+Git init - creates .git folder & initiates repo (exclude it in VScode setting to see it in explorer)
+
