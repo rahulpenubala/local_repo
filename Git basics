@@ -1,4 +1,6 @@
 Install Git & Git-Bash for windows
 Configure user, email - this creates global config file .gitconfig in home directory
+    git config --global user.name "penubala.rahul@gmail.com"
+    git config --global user.email "penubala.rahul@gmail.com"
 Git init - creates .git folder & initiates repo (exclude it in VScode setting to see it in explorer)
-
+To change the default editor to VScode - git config --global core.editor "code --wait"
