@@ -26,6 +26,6 @@ A new branch inherits "parent" commits, but, then adds commits on its own
 
 When there are uncommited changes, we should either commit them, or stash them before switching a branch
 
-git branch -m <rename> - renaming a brancg, when we are on the branch
+git branch -m <rename> - renaming a branch, when we are on the branch
 git branch -d <name> - deleting a branch, from outside of it
 git branch -D <name> - deleting even if it is not merged
