@@ -14,4 +14,10 @@ To avoid files being added to staging area/commits, use .gitignore file in the r
     Dependencies, packages etc . . .
 gitignore.io site is useful to find the template of files to be ignored for any module
 
+HEAD -> points to branch reference of current branch
+Branch reference -> points to latest commit of that branch
+HEADLESS -> when we switch to a hash that is not latest commit
 
+git branch    - list branches
+git branch <name> - create branches (This does not automatically switch the branch)
+git switch <name> - As soon as we switch, it retaing all the prev work/commits from master branch
