@@ -7,11 +7,11 @@ To change the default editor to VScode - git config --global core.editor "code -
 Git init - creates .git folder & initiates repo (exclude it in VScode setting to see it in explorer)
     do not initialize nested repos
 
-To avoid files being added to staging area/commits, use .gitignore file
+To avoid files being added to staging area/commits, use .gitignore file in the repo home
     Secrets
     Logs
     OS files
     Dependencies, packages etc . . .
-
+gitignore.io site is useful to find the template of files to be ignored for any module
 
 
