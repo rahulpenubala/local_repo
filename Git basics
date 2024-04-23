@@ -23,3 +23,5 @@ git branch <name> - create branches (This does not automatically switch the bran
 git switch <name> / git checkout <name> / git switch -c <name> - Craetes a branch and switches in one command
 A new branch inherits "parent" commits, but, then adds commits on its own
 (HEAD -> testbranch,master) ==> Means, both master & testbranch are pointing to same commit, but HEAD points to testbranch
+
+When there are uncommited changes, we should either commit them, or stash them before switching a branch
