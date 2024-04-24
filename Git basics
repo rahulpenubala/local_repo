@@ -3,7 +3,7 @@ Configure user, email - this creates global config file .gitconfig in home direc
     git config --global user.name "penubala.rahul@gmail.com"
     git config --global user.email "penubala.rahul@gmail.com"
 To change the default editor to VScode - git config --global core.editor "code --wait"
-
+==================================================================
 Git init - creates .git folder & initiates repo (exclude it in VScode setting to see it in explorer)
     do not initialize nested repos
 
@@ -17,7 +17,7 @@ gitignore.io site is useful to find the template of files to be ignored for any 
 HEAD -> points to branch reference of current branch
 Branch reference -> points to latest commit of that branch
 HEADLESS -> when we switch to a hash that is not latest commit
-
+==================================================================
 git branch    - list branches
 git branch <name> - create branches (This does not automatically switch the branch)
 git switch <name> / git checkout <name> / git switch -c <name> - Craetes a branch and switches in one command
@@ -32,6 +32,9 @@ git branch -D <name> - deleting even if it is not merged
 ======================================================================
 When a parent does not have any more newer commits, child can be merged using Fast forward merge - no merge commit
 When a parent has newer commit, child can be merged automatically when there are no conflicts
-When there are conflicts, we need to manually resolve & "commit" to complete the merge - merge commit
+When there are conflicts, we need to manually resolve & "commit" to complete the merge - a new merge commit is added
+======================================================================
 
-krk
+testbranch
+
+testbranch3
