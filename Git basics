@@ -37,3 +37,4 @@ When a parent has newer commit, child can be merged automatically when there are
 When there are conflicts, we need to manually resolve & "commit" to complete the merge - a new merge commit is added
 ======================================================================
 test1
+test2
