@@ -30,4 +30,4 @@ git branch -m <rename> - renaming a branch, when we are on the branch
 git branch -d <name> - deleting a branch, from outside of it
 git branch -D <name> - deleting even if it is not merged
 
-krk3
+krk4
