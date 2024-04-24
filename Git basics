@@ -36,7 +36,3 @@ When a parent does not have any more newer commits, child can be merged using Fa
 When a parent has newer commit, child can be merged automatically when there are no conflicts
 When there are conflicts, we need to manually resolve & "commit" to complete the merge - a new merge commit is added
 ======================================================================
-testbranch
-testbranch2
-testbranch3
-testbranch4
