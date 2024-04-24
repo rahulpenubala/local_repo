@@ -32,9 +32,16 @@ git branch -m <rename> - renaming a branch, when we are on the branch
 git branch -d <name> - deleting a branch, from outside of it
 git branch -D <name> - deleting even if it is not merged
 ======================================================================
+Merging shoud always be compared with the "common merge base" commit
 When a parent does not have any more newer commits, child can be merged using Fast forward merge - no merge commit
-When a parent has newer commit, child can be merged automatically when there are no conflicts
-When there are conflicts, we need to manually resolve & "commit" to complete the merge - a new merge commit is added
+When a parent has some progress, child can be merged automatically when there are no conflicts of change - auto-merge commit created
+    changes of any line from "base" to "child" & from "base" to "parent"
+When there are conflicts, we need to manually resolve & "commit" to complete the merge
+To abort running merger - git merge --abort
 ======================================================================
-child1
-master1
+git diff <hash1> <hash2> of branches
+git diff <branch1> <branch2> - compares branch references
+git diff - last known staged(added) values VS working directory
+git diff HEAD - last known HEAD(commiteed) values VS working directory
+git diff --staged - HEAD VS staged  
+=======================================================================
