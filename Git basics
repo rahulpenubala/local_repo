@@ -29,3 +29,8 @@ When there are uncommited changes, we should either commit them, or stash them b
 git branch -m <rename> - renaming a branch, when we are on the branch
 git branch -d <name> - deleting a branch, from outside of it
 git branch -D <name> - deleting even if it is not merged
+======================================================================
+When a parent does not have any more newer commits, child can be merged using Fast forward merge - no merge commit
+When a parent has newer commit, child can be merged automatically when there are no conflicts
+When there are conflicts, we need to manually resolve & "commit" to complete the merge - merge commit
+
