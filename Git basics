@@ -45,3 +45,9 @@ git diff - last known staged(added) values VS working directory
 git diff HEAD - last known HEAD(commiteed) values VS working directory
 git diff --staged - HEAD VS staged  
 =======================================================================
+When we switch branches without committing any saved changes, we need stash
+git stash [list]
+git pop - removes/applies recent stash, does not remove if there are conflicts
+git apply - only applies but does not remove
+git drop 
+========================================================================
