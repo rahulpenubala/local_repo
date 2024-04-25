@@ -54,6 +54,11 @@ git switch -c <branch> - to diverge from old commit
 git switch - -> to go back to last hash
 git switch <branch> - to get back to HEAD
 git checkout HEAD file_name -> to discoard the working directory changes (even if they are "added" to stage)
+
 Much easier commad to restore files content to latest commit - git restore file_name
 git restore --staged file_name -> to instage files, and then the above command to discard changes
 git restore --source HEAD~4 file_name -> To restore file conten, without time travelling
+
+git restore --hard <hash> -> removes the faulty commits. "Hrd" option discards changes in working files
+git rever <hash> -> keeps the faulty commit, but creates new commit with desired 'hash' stage
+===========================================================================
