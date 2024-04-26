@@ -116,4 +116,8 @@ to check the code at remote branches -> git checkout remote/branch (it wont crea
 to create local branch from remote branch -> git switch <branch> (not needed for master)
 ***Remote branch reference moves forward, based the last communication with github. If we are the owner of the branch, we can PUSH
 
-testing fetch & pull
+git fetch -> pulls all changes for all remote branches, but, does not merge
+git pull -> pulls the changes for current branch & merges 
+  if no conflicts, auto merge
+  if conflicts exists, resolve manaully, add & commit 
+=================================================================================
