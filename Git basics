@@ -115,4 +115,3 @@ git remote -r -> shows remote branches
 to check the code at remote branches -> git checkout remote/branch
 to create local branch from remote branch -> git switch <branch> (not needed for master)
 ***Remote branch reference moves forward, based the last communication with github. If we are the owner of the branch, we can PUSH
-_JKinuh.ko-jh
