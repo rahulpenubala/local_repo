@@ -102,3 +102,8 @@ else
   start_ssh_agent;
 fi
 =================================================================================
+git remote -v
+git remote add <name> <url>
+git push --set-upstream <remote> <branch>
+git branch --unset-upstream <branch_name>
+***Once we copy a repo, new copy inherits all properties from parent repo, but, then becomes its own
