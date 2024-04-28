@@ -121,4 +121,20 @@ git pull -> pulls the changes for current branch & merges
   if no conflicts, auto merge
   if conflicts exists, resolve manaully, add & commit 
 =================================================================================
-test 2
+Private & public - only for visibility, both nee collab permissions for push
+Collab permissions give push previliges to other users (Repo>settings>collaboration>)
+git log --graph --oneline --decorate --all - useful command to see graph view 
+
+In Centralized workflow, collaborator have to merge (and resolve conflicts) the github code base to their code to push their code, 
+even if it is incomplete. This could break everyone's work
+
+Feature branch workflow:
+1. No one touches master branch 
+  git pull should be good enough to get recent master commits
+2. Every one works on feature branch 
+  git fetch & pull -> for my working branch
+  git fetch & switch for others branches if it is first time
+  git pull for others branches if already created locally
+3. Once happy with feature, merge with master (PR)
+
+
