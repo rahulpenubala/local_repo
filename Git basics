@@ -137,4 +137,6 @@ Feature branch workflow:
   git pull for others branches if already created locally
 3. Once happy with feature, merge with master (PR)
 
+One good use case is, to create a branch based on code in remote branch
+git switch -c <branch> after fetch & checking out a remote branch
 
