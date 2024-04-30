@@ -148,8 +148,3 @@ Processing a PR:
 4. git switch master 
 5. git merge feature_branch
 6. git push -> to git hub
-
-
-
-
-
