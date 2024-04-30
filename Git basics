@@ -143,8 +143,13 @@ git switch -c <branch> after fetch & checking out a remote branch
 Processing a PR:
 1. git fetch origin
 2. Switch to feature branch whose code should be merged
-3. git merge master, resolve conflict [Master should be upto date]
+3. git merge master, resolve conflict [Master should be upto date] -> git add -> git commit
 
 4. git switch master 
 5. git merge feature_branch
 6. git push -> to git hub
+
+It is a good practise to merge mater to feature first, for rebasing & up-to-date reasons
+============================================================================
+To prevent collaborators accidentally mess up master, we can add branch protection rules
+  -> we can also configure what is default branch in Github
