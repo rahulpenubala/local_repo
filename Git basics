@@ -140,3 +140,16 @@ Feature branch workflow:
 One good use case is, to create a branch based on code in remote branch
 git switch -c <branch> after fetch & checking out a remote branch
 
+Processing a PR:
+1. git fetch origin
+2. Switch to feature branch whose code should be merged
+3. git merge master, resolve conflict [Master should be upto date]
+
+4. git switch master 
+5. git merge feature_branch
+6. git push -> to git hub
+
+
+
+
+
