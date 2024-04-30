@@ -153,3 +153,18 @@ It is a good practise to merge mater to feature first, for rebasing & up-to-date
 ============================================================================
 To prevent collaborators accidentally mess up master, we can add branch protection rules
   -> we can also configure what is default branch in Github
+===========================================================================
+Fork & Clone:
+1. Fork the main reposioty, it cleates a personal copy in our account
+2. Clone it locally (sets up origin remote)
+3. Add upstream remote for the original repor -> you will be using it to pull latest changes
+4. Push your changes to origin remote repo
+5. Create a PR from your copy to original repo
+============================================================================
+Rebasing - Clean up commit history, by sorting main -> feature
+  fixup commit
+  ammend commit messages etc etc
+===========================================================================
+Alias can aslo be creted using global config file [aliases]
+===========================================================================
+We can also use tage & reflogs
